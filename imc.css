@@ -1,0 +1,61 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.cabecalho {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 150%;
+}
+
+
+.todoconteudo {
+    border: solid;
+    margin: 5%;
+    padding: 5%;
+    margin-left: 30.7%;
+    margin-right: 30.7%;
+    border-radius: 20px;
+    border-width: 1;
+    border-color: rgb(192, 192, 192);
+}
+
+.calcular {
+    font-size: 170%;
+}
+
+input {
+    border: solid;
+    font-size: 90%;
+    padding: 2%;
+    width: 100%;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+#botao {
+    color: white;
+    margin-top: 5%;
+    background: linear-gradient(135deg, #f800ba, #bd008e);
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 170%;
+    padding: 1%;
+    padding-left: 34.5%;
+    padding-right: 34.5%;
+}
+
+#mensagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6%;
+    border-top: solid;
+    padding-top: 10%;
+    border-width: 1px;
+    border-color: rgb(161, 161, 161);
+    font-size: 30;
+}
